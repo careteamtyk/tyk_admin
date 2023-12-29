@@ -1,0 +1,9 @@
+.auto-select-item{
+    position: relative;
+    padding: 8px;
+    user-select: none;
+    cursor: pointer;
+}
+.auto-select-item:hover{
+    background-color: #ddd;
+}

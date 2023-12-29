@@ -1,0 +1,13 @@
+.config_item{
+    margin-top: 12px;
+    border: 1px solid #ccc;
+    border-radius: 11px;
+    padding: 1px 14px;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+}
+.config_item div{
+    align-self: center;
+    flex: 1;
+}

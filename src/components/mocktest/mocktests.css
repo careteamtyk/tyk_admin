@@ -1,0 +1,22 @@
+.ma-bottom-action{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    margin-top: 4px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+.ma-bottom-action .MuiButton-contained{
+    border-radius: 16px;
+    background: rgb(107, 107, 240);
+    font-family: Nunito, 'Open Sans';
+    color: white;
+    text-transform: none;
+}
+.create-action{
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    
+}

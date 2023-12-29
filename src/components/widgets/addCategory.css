@@ -1,0 +1,10 @@
+.add-category-p{
+    display: none;
+    padding: 12px;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 10px 20px rgba(148, 170, 198, 0.19), 0 6px 6px rgba(125, 145, 211, 0.23);
+}
+.add-category-p.show{
+    display: flex;
+}

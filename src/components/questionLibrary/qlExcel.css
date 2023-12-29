@@ -1,0 +1,58 @@
+.ql-excel{
+    height: 85vh;
+    overflow-y: auto;
+    display: flex;
+}
+.ql-excel-i{
+  align-self: center;
+  display: flex;
+  width: 100%;
+}
+.ql-excel-i-c{
+  flex: 0.7;
+  padding-left: 16px;
+}
+.ql-excel-i-c ul li{
+  margin-top: 12px;
+}
+.selected_qns{
+    padding: 8px;
+    overflow-x: auto;
+    margin-top: 16px;
+}
+.selected_qns table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+  }
+  .ql-excel-analytics{
+    display: table;
+    margin: auto;
+  }
+.selected_qns th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+
+.selected_qns tr th:first-child,
+tr td:first-child {
+  width: 10em;
+  min-width: 10em;
+  max-width: 10em;
+  word-break: break-all;
+}
+.ql-excel-btn-s{
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.ql-excel-btn-s .MuiButton-contained{
+    width: 192px;
+    border-radius: 12px;
+    
+}
+  
+.selected_qns tr:nth-child(even){background-color: #f2f2f2}

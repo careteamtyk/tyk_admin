@@ -1,0 +1,39 @@
+.add_topic{
+    width: 300px;
+    padding: 12px;
+    position: absolute;
+    right: 0;
+    top: 36px;
+    z-index: 10;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+}
+.add_topic .MuiIconButton-root{
+    background: #94adf8 !important;
+}
+.topic{
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 6px;
+    margin: 6px;
+}
+.topics_c{
+    max-height: 300px;
+    overflow-y: auto;
+}
+.topic:hover{
+    background-color: #587ef3;
+    color: white;
+}
+.topic.selected{
+    background-color: #587ef3;
+    color: white;
+}
+.topic div{
+    white-space: nowrap; 
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

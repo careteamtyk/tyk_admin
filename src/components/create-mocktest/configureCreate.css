@@ -1,0 +1,8 @@
+.config_assessment{
+    max-width: 700px;
+    margin: 12px auto;
+    padding: 16px;
+    box-shadow: 0 10px 20px rgba(186, 197, 216, 0.19), 0 6px 6px rgba(190, 208, 235, 0.23);
+    border-radius: 8px;
+    border-top: 4px solid #543de3;
+}

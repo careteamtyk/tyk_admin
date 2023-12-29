@@ -1,0 +1,29 @@
+.ql-btn{
+    display: block;
+    flex: 1;
+    background: white;
+    border-radius: 16px;
+    padding: 14px;
+    margin: 14px 8px;
+    box-shadow: 0 3px 6px rgba(135, 153, 230, 0.16), 0 3px 6px rgba(183, 189, 243, 0.23);
+}
+.ql-btn-h{
+    font-size: 17px;
+    text-align: center;
+    color: rgb(89, 89, 90);
+    font-weight: 600;
+}
+.ql-btn-a{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+}
+.ql-btn-a .MuiButton-contained{
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    border-radius: 16px;
+    background: #5857c9;
+    text-transform: none;
+}

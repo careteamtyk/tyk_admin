@@ -1,0 +1,14 @@
+.excel-w-c{
+    margin-top: 24px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto
+}
+.excel-onfile-sel{
+    display: block;
+    border: 2px dashed #888;
+    border-radius: 16px;
+    margin-top: 18px;
+    cursor: pointer;
+    user-select: none
+}

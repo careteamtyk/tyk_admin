@@ -1,0 +1,16 @@
+.menu_button{
+    display: flex;
+    color: #6C7383;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Open Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    cursor: pointer
+}
+.menu_button:hover{
+    color: white;
+    background-color: #4f4eb6;;
+}
+.menu_button.active{
+    color: white;
+    background-color: #4f4eb6;;
+}

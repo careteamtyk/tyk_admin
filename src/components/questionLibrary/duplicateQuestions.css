@@ -1,0 +1,17 @@
+.duplicate-questions{
+   
+}
+.duplicate-questions .dq-c{
+    max-height: 75vh;
+    overflow-y: auto;
+}
+.duplicate-questions .dq-action{
+    margin: auto !important;
+    display: table;
+}
+.duplicate-questions .MuiButton-outlined{
+    color: red !important;
+    border-radius: 8px;
+    border: 1px solid red;
+    text-transform: none;
+}

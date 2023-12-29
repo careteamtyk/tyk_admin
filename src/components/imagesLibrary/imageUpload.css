@@ -1,0 +1,39 @@
+.qImg {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 256px;
+    height: 192px;
+    overflow: hidden;
+  }
+  
+  .qImg:hover {
+    border: 1px solid #777;
+  }
+  .qImg img {
+    width: 192px;
+    height: 120px;
+    display: block;
+    margin: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    background-color: #f0fffa;
+  }
+  
+  .qimgC {
+    position: relative;
+    padding: 0 6px;
+    display: inline-block;
+    margin-top: 6px;
+  }
+  .qimgC .copy-icon .MuiIconButton-root{
+      background: #d9e2e2 !important;
+  }
+  .img-upload-header{
+      display: flex;
+      justify-content: center;
+      margin: 16px auto;
+      padding: 8px;
+
+  }

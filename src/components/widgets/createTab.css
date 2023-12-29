@@ -1,0 +1,12 @@
+.create-tab{
+    font-family: 'Open Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    padding: 8px;
+    margin-bottom: -4px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px; 
+    display: flex;
+    border: 1px solid #D3D4D5;
+    cursor: pointer;
+  }

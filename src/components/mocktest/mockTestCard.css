@@ -1,0 +1,9 @@
+.mock-test-card{
+    display: flex;
+    padding: 10px 16px;
+    margin: 8px;
+    border-radius: 12px;
+    background-color: white;
+    font-family: Nunito, 'Open Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    box-shadow: 0 3px 6px rgba(154, 193, 230, 0.16), 0 3px 6px rgba(122, 155, 245, 0.23);
+}

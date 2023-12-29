@@ -1,0 +1,8 @@
+.top_menu_icon{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    color: #6C7383 !important;
+ }

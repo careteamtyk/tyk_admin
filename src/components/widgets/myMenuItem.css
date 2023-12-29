@@ -1,0 +1,30 @@
+.my-menu-item{
+    display: flex;
+    color: #6C7383;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Open Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 7px;
+    border-radius: 8px;
+    margin: 8px;
+}
+.my-menu-item:hover{
+    background: #e7ebf4;
+}
+.my-menu-item.active{
+    background: #a9ffa8
+}
+.my-menu-item .text-container{
+    flex: 1;
+    align-self: center
+}
+.my-menu-item .text-holder{
+    margin-left: 8px;
+    margin-right: 8px;
+    max-width: 252px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}

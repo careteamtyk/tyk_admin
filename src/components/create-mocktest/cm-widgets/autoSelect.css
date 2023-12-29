@@ -1,0 +1,20 @@
+.auto-select{
+    position: absolute;
+    box-shadow: 0 19px 38px rgb(0 0 0 / 30%), 0 15px 12px rgb(0 0 0 / 22%);
+    width: 320px;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: white;
+    z-index: 20;
+    top: 0;
+    display: none;
+}
+.auto-select.show{
+    display: block;
+}
+.auto-select .MuiIconButton-root{
+    position: absolute;
+    right: -24px;
+    top: -24px;
+    background-color: rgb(171, 184, 244) !important;
+}

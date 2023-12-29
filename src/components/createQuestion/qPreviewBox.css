@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Roboto:wght@300;400&display=swap');
+.question_option{
+    display: flex;
+    cursor: pointer;
+    margin: 12px;
+    padding: 6px;
+    border-radius: 6px;
+}
+.question_num{
+    display: table;
+    padding: 4px 12px 4px 12px;
+    user-select: none;
+    font-size: 14px;
+    border-radius: 14px;
+    font-weight: 600;
+    border: 1px solid #ccc;
+}
+.q-preview-box{
+    padding: 16px;
+    position: relative;
+    max-height: 75vh;
+    overflow-y: auto;
+}
+.question{
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-right: 12px;
+    font-size: 17px;
+}

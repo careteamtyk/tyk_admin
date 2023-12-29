@@ -1,0 +1,23 @@
+.pwdInfo{
+    max-width: 560px;
+    padding: 16px;
+    position: relative;
+    left:0;
+    right: 0;
+    margin: auto;
+    top: 40px;
+}
+.pwdInfo h2{
+    text-align: center;
+}
+.message{
+    text-align: center;
+    margin-top: 15px;
+}
+.pwdReset{
+    margin-bottom: 170px;
+}
+.pwdReset .MuiButton-contained{
+    margin-top: 20px;
+    border-radius: 24px;
+}

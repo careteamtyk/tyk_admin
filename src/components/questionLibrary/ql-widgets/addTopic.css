@@ -1,0 +1,26 @@
+.add-topic-p{
+    display: none;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 8px;
+    position: relative;
+    min-width: 300px;
+    box-shadow: 0 10px 20px rgba(148, 170, 198, 0.19), 0 6px 6px rgba(125, 145, 211, 0.23);
+}
+.add-topic-p.show{
+    display: block;
+    position: absolute;
+    right: 48px;
+    margin-top: 28px;
+    background-color: white;
+    z-index: 10;
+}
+.add-topic-p .MuiIconButton-root{
+    background: rgb(190 204 251) !important;
+}
+.mt-topics-c{
+    display: block;
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 16px;
+}

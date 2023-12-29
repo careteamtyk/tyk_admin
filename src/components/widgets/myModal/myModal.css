@@ -1,0 +1,78 @@
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 4; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    padding: 0;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 1000px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  
+  .modal-header {
+    display: flex;
+    color: rgb(131, 127, 127);
+  }
+  
+  .modal-body {padding: 2px 16px;  background-color: white;}
+  
+  .modal-footer {
+    padding: 2px 16px;
+    color: rgb(139, 136, 136);
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes showa {
+    from {opacity:0} 
+    to {opacity:1}
+  }
+  
+  @keyframes showa {
+    from {opacity:0}
+    to {opacity:1}
+  }
+  /* Add Animation */
+  @-webkit-keyframes hidea {
+    from {opacity:1} 
+    to {opacity:0}
+  }
+  
+  @keyframes hidea {
+    from {opacity:1; display: flex}
+    to {opacity:0; display: none;}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: rgb(94 91 91);
+    margin-right: 6px;
+    margin-top: -6px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .modal-c-body{
+    padding: 8px;
+  }

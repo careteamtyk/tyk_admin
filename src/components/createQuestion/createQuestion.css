@@ -1,0 +1,119 @@
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 4; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  .modal.createQuestion textarea{
+        margin-top: 6px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 8px;
+        width: 100%;
+        background-color: inherit;
+        outline: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        resize: none;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    padding: 0;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 1000px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  
+  .modal-header {
+    display: flex;
+    color: rgb(131, 127, 127);
+  }
+  
+  .modal-body {padding: 2px 16px;  background-color: white;}
+  
+  .modal-footer {
+    padding: 2px 16px;
+    color: rgb(139, 136, 136);
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes showa {
+    from {opacity:0} 
+    to {opacity:1}
+  }
+  
+  @keyframes showa {
+    from {opacity:0}
+    to {opacity:1}
+  }
+  /* Add Animation */
+  @-webkit-keyframes hidea {
+    from {opacity:1} 
+    to {opacity:0}
+  }
+  
+  @keyframes hidea {
+    from {opacity:1; display: flex}
+    to {opacity:0; display: none;}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: rgb(94 91 91);
+    margin-right: 12px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .bottom-action-panel{
+    display: flex;
+    padding: 10px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(238, 247, 239);
+  }
+  .bottom-action-panel .MuiButton-contained{
+      border-radius: 16px !important;
+      text-transform: none;
+
+  }
+  .bottom-action-panel .submit-button{
+      background: rgb(235, 156, 8) !important;
+      margin-left: 12px !important;
+  }
+  .option-header{
+    display: flex;
+    margin-top: 12px;
+  }
+  .option-h-q{
+    display: flex;
+    padding: 1px 10px;
+    border-radius: 18px;
+  }
+  .option-h-q:hover{
+    cursor: pointer;
+    background: rgb(182, 229, 246);
+  }

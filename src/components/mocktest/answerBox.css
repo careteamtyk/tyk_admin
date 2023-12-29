@@ -1,0 +1,15 @@
+.question_num{
+    display: table;
+    padding: 4px 12px 4px 12px;
+    user-select: none;
+    font-size: 14px;
+    border-radius: 14px;
+    font-weight: 600;
+    border: 1px solid #ccc;
+}
+.answer_box{
+    margin: 6px;
+    padding: 12px;
+    position: relative;
+    box-shadow: 0 3px 6px rgba(191, 205, 234, 0.16), 0 3px 6px rgba(164, 170, 231, 0.23);
+}

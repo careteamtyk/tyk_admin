@@ -1,0 +1,12 @@
+.ql-topic-d{
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 6px;
+    margin: 6px;
+}
+.ql-topic-d:hover{
+    background-color: #587ef3;
+    color: white;
+    cursor: pointer;
+}

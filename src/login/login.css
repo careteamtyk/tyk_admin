@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+@import url('https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css');
+@import url('https://use.fontawesome.com/releases/v5.2.0/css/all.css');
+.container{
+	display: flex;
+	width: 100%;
+	position: fixed;
+	max-width: 900px;
+	position: fixed;
+	border-radius: 10px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	height: 80vh;
+}
+.login-content{
+	position: absolute;
+	display: flex;
+	inset: 0;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 20px 25px -5px rgb(0 0 0 / 10%), 0 10px 10px -5px rgb(0 0 0 / 4%);
+}
+.login-banner{
+	flex: 1;
+	background-image: url('login-office.jpeg');
+    background-size: cover;
+	background-position: center;
+}
+.login-action-area{
+	padding: 10px;
+	flex: 1;
+}
+@media only screen and (max-width: 720px) {
+	.login-content{
+		flex-direction: column;
+	}
+	.login-banner{
+		max-height: 200px;
+	}
+}

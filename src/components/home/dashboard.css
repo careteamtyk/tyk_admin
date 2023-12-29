@@ -1,0 +1,30 @@
+.sam-dashboard{
+    
+}
+.chart_c{
+    margin-top: 20px;
+    margin-right: 16px;
+    width: 100%;
+    display: table;
+    border-spacing: 16px;
+}
+.chart_item{
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgb(210 231 248 / 30%), 0 1px 3px 1px rgb(172 184 193 / 15%);
+    position: relative;
+    display: table-cell;
+    padding: 16px;
+    width: 50%;
+}
+@media screen and (max-width: 640px) {
+    .chart_c{
+        display: block;
+        margin: 2px;
+        border-spacing: 0;
+    }
+    .chart_c .chart_item{
+        padding: 8px;
+        display: block;
+        width: 100%;
+    }
+}

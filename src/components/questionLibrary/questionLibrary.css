@@ -1,0 +1,51 @@
+.ql-c{
+
+}
+.ql-c .ql-topic-h{
+    display: flex;
+    margin: 10px 2px;
+}
+.ql-topic-h-l{
+    flex: 1;
+    font-weight: 600;
+    font-size: 18px;
+    color: #2756aa;
+    align-self: center;
+}
+.ql-topic-h-a{
+    align-self: center;
+    margin-left: 8px;
+    position: relative;
+}
+.ql-topic-h-a .MuiButton-contained{
+    border-radius: 16px;
+    padding: 4px 12px;
+    text-transform: none;
+    background: #5857c9;
+}
+.ql-action{
+    display: flex;
+    margin-top: 16px;
+}
+.ql-topics-c{
+    height: 350px;
+    border-radius: 12px;
+    overflow-y: auto;
+}
+.duplicates-q-c{
+    display: table;
+    margin: auto;
+    margin-top: 6px;
+    border: 1px dotted #5857c9;
+    padding: 2px 6px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 12px;
+}
+.duplicates-q-c .duplicates-q-l{
+    font-weight: 600;
+    color: #5857c9;
+}
+.ql_action .MuiButton-contained{
+    border-radius: 16px !important;
+}

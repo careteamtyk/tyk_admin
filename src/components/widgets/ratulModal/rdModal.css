@@ -1,0 +1,128 @@
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 4; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  padding: 0;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 1000px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.modal-header {
+  padding: 2px 16px;
+  color: rgb(131, 127, 127);
+}
+
+.modal-body {padding: 2px 16px;  background-color: white;}
+
+.modal-footer {
+  padding: 2px 16px;
+  color: rgb(139, 136, 136);
+}
+
+/* Add Animation */
+@-webkit-keyframes showa {
+  from {opacity:0} 
+  to {opacity:1}
+}
+
+@keyframes showa {
+  from {opacity:0}
+  to {opacity:1}
+}
+/* Add Animation */
+@-webkit-keyframes hidea {
+  from {opacity:1} 
+  to {opacity:0}
+}
+
+@keyframes hidea {
+  from {opacity:1; display: flex}
+  to {opacity:0; display: none;}
+}
+
+/* The Close Button */
+.close {
+  color: rgb(94 91 91);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.rdw-editor-main{
+  padding: 12px !important;
+  border: 1px solid #f0f0f0 !important;
+  border-radius: 6px !important;
+  min-height: 90px !important;
+  max-height: 144px !important;
+  overflow-y: auto;
+  background-color: rgb(241, 241, 241);
+}
+.public-DraftStyleDefault-block{
+  margin: 0 !important;
+}
+.rdw-link-modal, .rdw-colorpicker-modal, .rdw-image-modal, .rdw-emoji-modal{
+  border-radius: 16px !important;
+  box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%) !important;
+}
+.rdw-editor-toolbar{
+   background-color: #8693ff !important;
+   border-radius: 6px !important;
+}
+.rdw-embedded-wrapper, .rdw-link-wrapper, .rdw-remove-wrapper, .rdw-text-align-wrapper, .rdw-list-wrapper, .rdw-fontfamily-wrapper{
+   display: none !important;
+}
+.editor_container{
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 8px 12px 24px 12px;
+  position: relative;
+}
+.answer_c{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  left:0;
+  right:0;
+}
+.back_nav_icon, .forward_nav_icon{
+  display: flex;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgb(235 234 234);
+  border-radius: 50%
+}
+.forward_nav_icon{
+  right: 0;
+}
+.back_nav_icon{
+  left: 0;
+  padding-right: 3px;
+}
+.back_nav_icon .MuiSvgIcon-root{
+   margin-left:-3px;
+}

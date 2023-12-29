@@ -1,0 +1,13 @@
+.duplicate-q-view{
+    padding: 12px;
+    margin: 12px;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+    display: flex;
+}
+.duplicate-q-view .q-view{
+    flex: 1;
+}
+.duplicate-q-view .repeat-num{
+    color: red;
+}
